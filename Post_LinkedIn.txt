@@ -1,0 +1,26 @@
+Uma medição sem referência ao requisito deixa a análise pela metade.
+Como ligar desenho, resultado e evidência antes de decidir sobre o primeiro artigo?
+
+O Kit demonstrativo de preparação e registro de FAI reúne uma ferramenta editável, um exemplo preenchido e um modelo em branco. Funciona localmente no navegador, sem cadastro ou envio de dados, e permite salvar o registro em JSON e exportar características em CSV.
+
+Cenário simulado, independente de qualquer organização:
+• Comprimento: 99,8 a 100,2 mm; medido 100,1 mm — dentro da faixa.
+• Largura: 59,8 a 60,2 mm; medido 60,3 mm — fora da faixa.
+• Ensaio elétrico: sem resultado — pendente.
+
+Três características: uma dentro, uma fora e uma pendente. Os limites são inclusivos. A comparação é aritmética; não considera incerteza de medição nem substitui a regra de decisão aplicável.
+
+O kit organiza configuração, características/evidências, pendências/decisão e mudanças. O uso começa com o exemplo e segue com as referências oficiais do seu processo.
+
+A utilidade é concreta: identificar o que foi verificado, qual resultado foi registrado e qual evidência ainda falta para a avaliação pela pessoa autorizada.
+
+Modelo independente, adaptável aos requisitos do cliente. Não é formulário oficial AS9102/EN9102 e não libera produto.
+
+Acesse gratuitamente:
+https://dekomao.github.io/kit-fai-demonstrativo/
+
+#Qualidade #NPI #FAI
+
+Referências:
+https://www.guthcad.com/as9102-FAI-Portuguese.html
+https://fileit.com/form-templates/first-article-inspection

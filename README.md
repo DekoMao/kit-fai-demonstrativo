@@ -2,6 +2,8 @@
 
 Ferramenta educacional gratuita de **Wanderley Uchôa**, voltada à organização de referências e evidências de inspeção do primeiro artigo.
 
+**Acesse a ferramenta:** https://dekomao.github.io/kit-fai-demonstrativo/
+
 ## Uso
 
 Abra `index.html` no navegador ou utilize a página publicada pelo GitHub Pages. Use o exemplo simulado, comece em branco e salve o registro em JSON. O CSV exporta apenas as características. O botão de download fornece o pacote para uso offline.
