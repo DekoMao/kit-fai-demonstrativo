@@ -1,0 +1,84 @@
+{
+  "schema": "kit-fai-1",
+  "mode": "CENÁRIO SIMULADO — não representa produto ou organização reais",
+  "header": {
+    "report": "DEMO-FAI-001",
+    "product": "Montagem eletrônica e suporte",
+    "part": "DEMO-001",
+    "serial": "SIM-0001 / LOTE-SIM",
+    "drawing": "SUP-DEMO rev. C",
+    "order": "PILOTO-SIM-01",
+    "scope": "Avaliar alteração de configuração; escopo a definir após análise de impacto.",
+    "previous": "DEMO-FAI-000 / configuração anterior",
+    "prepared": "Preenchimento demonstrativo"
+  },
+  "configs": [
+    {
+      "name": "Placa",
+      "before": "B",
+      "planned": "C"
+    },
+    {
+      "name": "BOM",
+      "before": "06",
+      "planned": "07"
+    },
+    {
+      "name": "Firmware",
+      "before": "1.4",
+      "planned": "1.4"
+    }
+  ],
+  "chars": [
+    {
+      "id": "1",
+      "ref": "SUP-DEMO C / balão 1",
+      "description": "Comprimento do suporte",
+      "unit": "mm",
+      "low": "99.8",
+      "high": "100.2",
+      "result": "100.1",
+      "instrument": "PAQ-SIM-01; registro SIM-MED-01"
+    },
+    {
+      "id": "2",
+      "ref": "SUP-DEMO C / balão 2",
+      "description": "Largura do suporte",
+      "unit": "mm",
+      "low": "59.8",
+      "high": "60.2",
+      "result": "60.3",
+      "instrument": "PAQ-SIM-01; registro SIM-MED-01"
+    },
+    {
+      "id": "3",
+      "ref": "IT-SIM-01 rev. A / ensaio da montagem",
+      "description": "Tensão de saída da montagem",
+      "unit": "V",
+      "low": "4.9",
+      "high": "5.1",
+      "result": "",
+      "instrument": "MULT-SIM-01; ensaio pendente"
+    }
+  ],
+  "decision": {
+    "impact": "Mudanças de placa e BOM exigem avaliação documentada. Não inferir impacto dimensional ou elétrico só pelos identificadores.",
+    "checks": "Confirmar escopo; investigar resultado dimensional fora da faixa; executar ensaio pendente.",
+    "pending": "Característica 2 fora da faixa; característica 3 sem resultado.",
+    "evidence": "Referências SIM são exemplos sem arquivos de evidência.",
+    "instrument": "Validade da calibração e adequação ainda não verificadas neste exemplo.",
+    "rule": "Regra de decisão e incerteza: pendentes de definição conforme procedimento aplicável.",
+    "disposition": "PENDENTE — não há liberação neste exemplo.",
+    "responsible": "A definir conforme processo autorizado",
+    "date": "2026-11-23",
+    "rationale": "Concluir avaliação e verificações antes de decidir."
+  },
+  "changes": [
+    {
+      "date": "2026-11-23",
+      "change": "Placa B → C; BOM 06 → 07",
+      "impact": "Impacto a avaliar; firmware permanece 1.4",
+      "evidence": "Referência de alteração e responsável pendentes"
+    }
+  ]
+}

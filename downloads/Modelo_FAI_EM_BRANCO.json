@@ -1,0 +1,46 @@
+{
+  "schema": "kit-fai-1",
+  "mode": "Registro em branco",
+  "header": {
+    "report": "",
+    "product": "",
+    "part": "",
+    "serial": "",
+    "drawing": "",
+    "order": "",
+    "scope": "",
+    "previous": "",
+    "prepared": ""
+  },
+  "configs": [
+    {
+      "name": "Placa",
+      "before": "",
+      "planned": ""
+    },
+    {
+      "name": "BOM",
+      "before": "",
+      "planned": ""
+    },
+    {
+      "name": "Firmware",
+      "before": "",
+      "planned": ""
+    }
+  ],
+  "chars": [],
+  "decision": {
+    "impact": "",
+    "checks": "",
+    "pending": "",
+    "evidence": "",
+    "instrument": "",
+    "rule": "",
+    "disposition": "",
+    "responsible": "",
+    "date": "",
+    "rationale": ""
+  },
+  "changes": []
+}

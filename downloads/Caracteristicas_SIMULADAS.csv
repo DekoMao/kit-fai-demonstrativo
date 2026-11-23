@@ -1,0 +1,4 @@
+﻿"ID";"Referencia";"Descricao";"Unidade";"Limite inferior";"Limite superior";"Resultado";"Instrumento / evidencia";"Comparacao"
+"1";"SUP-DEMO C / balão 1";"Comprimento do suporte";"mm";"99.8";"100.2";"100.1";"PAQ-SIM-01; registro SIM-MED-01";"DENTRO DA FAIXA"
+"2";"SUP-DEMO C / balão 2";"Largura do suporte";"mm";"59.8";"60.2";"60.3";"PAQ-SIM-01; registro SIM-MED-01";"FORA DA FAIXA"
+"3";"IT-SIM-01 rev. A / ensaio da montagem";"Tensão de saída da montagem";"V";"4.9";"5.1";"";"MULT-SIM-01; ensaio pendente";"PENDENTE"

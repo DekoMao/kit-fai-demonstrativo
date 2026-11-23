@@ -1,0 +1,42 @@
+KIT DEMONSTRATIVO DE PREPARAÇÃO E REGISTRO DE FAI — v1.1
+Autor: Wanderley Uchôa | 23/11/2026
+
+COMEÇAR
+1. Baixe Kit_FAI.html e abra no navegador do computador. Não requer instalação, cadastro nem conexão.
+2. O arquivo abre com um EXEMPLO SIMULADO. Explore os quatro blocos antes de limpar.
+3. Use “Salvar registro JSON” para preservar todo o preenchimento. O HTML não salva dados automaticamente entre sessões.
+4. Use “Começar em branco” para preencher seu caso. Os botões de exemplo, branco e importação pedem confirmação quando há edições não salvas.
+5. “Abrir registro JSON” recupera um registro salvo. Os arquivos Exemplo_FAI_SIMULADO.json e Modelo_FAI_EM_BRANCO.json acompanham o kit.
+6. “Exportar características CSV” exporta apenas a tabela de características e sua comparação numérica; o registro completo está no JSON.
+7. “Imprimir registro” abre a impressão do navegador. Revise a prévia de impressão e o enquadramento antes de salvar ou imprimir; a paginação não foi homologada neste ambiente.
+
+01 — CONFIGURAÇÃO E ESCOPO
+Identifique produto, código, serial/lote, desenho e revisão, relatório anterior, motivo e escopo proposto. Compare referências individualmente. Números de revisão de documentos distintos não precisam coincidir. Diferença documental pede avaliação; não comprova defeito. Identificadores vazios são incompletos.
+
+02 — CARACTERÍSTICAS E EVIDÊNCIAS
+Use o ID da característica/balão, referência do documento e descrição. Registre unidade, limites, resultado, identificação do instrumento e referência da evidência. O desenho do suporte é didático e não contém todas as especificações para fabricação. Os balões 1 e 2 são dimensões em mm. A característica 3 é tensão de uma montagem, em V, ligada a uma instrução de teste independente.
+Exemplo simulado:
+1. Comprimento: 99,8 a 100,2 mm; medido 100,1 mm → dentro da faixa.
+2. Largura: 59,8 a 60,2 mm; medido 60,3 mm → fora da faixa.
+3. Tensão: 4,9 a 5,1 V; sem resultado → pendente.
+Balanço: 3 características = 1 dentro + 1 fora + 1 pendente.
+Limites inclusivos; vírgula ou ponto decimal aceitos; sem separador de milhar. Campos vazios não viram zero. Limite inferior maior que superior é inválido. IDs repetidos geram aviso.
+A comparação é aritmética. Ela não considera incerteza, regra de decisão ou adequação do instrumento e não comprova conformidade metrológica. Não há avaliação automática de características por atributo; registre-as e avalie-as no processo aplicável.
+
+03 — PENDÊNCIAS E DECISÃO
+Documente impacto, verificações, pendências/não conformidades, evidências, instrumentos, método/regra de decisão, disposição e responsável. Os campos de nome/data não são assinaturas autenticadas. Nenhum nome de responsável fictício autoriza decisão. No exemplo a disposição permanece pendente; não há liberação.
+
+04 — MUDANÇAS
+Registre alteração, impacto, características envolvidas e referência da decisão/evidência. O histórico é editável, não é uma trilha de auditoria protegida. Não extrapole a validade de um relatório para uma configuração alterada sem avaliação. Mudança não determina automaticamente repetir todo o FAI.
+
+LIMITES DO MODELO
+Modelo independente, adaptável ao processo, ao contrato e aos requisitos do cliente. Não é formulário oficial AS9102/EN9102 e não foi declarada conformidade com norma. Não substitui procedimento, dossiê completo ou decisão por pessoa autorizada. As referências de evidência são texto: não há anexação nem verificação de arquivos. Não há sincronização, transmissão de dados, autenticação ou banco de dados. Guarde o JSON em local autorizado pela sua organização.
+
+REFERÊNCIAS DE PESQUISA
+https://www.guthcad.com/as9102-FAI-Portuguese.html
+https://fileit.com/form-templates/first-article-inspection
+Usadas para pesquisar conceitos de organização; não representam endosso. Formulários corporativos, marcas, regras específicas e o arquivo AQDEF.119 fornecido não integram este kit.
+
+USO ONLINE E OFFLINE
+O site funciona no navegador e processa os campos localmente. A ferramenta não envia o preenchimento a um servidor. O provedor de hospedagem pode registrar informações técnicas de acesso conforme sua política. Não há armazenamento automático entre sessões; baixe o JSON para preservar os dados.
+O ZIP contém Kit_FAI.html, guia, exemplo, modelo em branco e CSV. Extraia a pasta antes de abrir os arquivos. Os links da área de downloads exigem conexão no uso online; o formulário e as exportações funcionam localmente.
